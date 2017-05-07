@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<h1>practice 2</h1>
+
+Wall to wall <input id="across" type="nubmer"><br>
+
+
+Height of Walls <input id="height" type="nubmer"> <br>
+
+<button onclick="materialsNeeded()">Calculate Materials</button>
+
+<h1>What is your home state?</h1>
+<select  id="state">
+    <option value="WY">Wyoming</option>
+    <option value="UT">Utah</option>
+    <option value="ID">Idaho</option>
+    <option value="MT">Montana</option>
+    <option value="CO">Colorado</option>
+</select>
+
+<h2>Your home Style</h2>
+<select  id="home">
+    <option value="single">Single Family</option>
+    <option value="apartment">Apartment or Condo</option>
+    <option value="multi">Multi-Family</option>
+    <option value="mobile">Mobile Home</option>
+</select>
+
+<h2>Lighting</h2>
+<label><input type="checkbox" name="bulb" value="Incandescent">Incandescent</label>
+<label><input type="checkbox" name="bulb" value="LED">Light Emitting Diod</label>
+<label><input type="checkbox" name="bulb" value="CFL">Compact Fluorescent Light</label>
+
+<br>
+<button onclick="evaluatePage()">Run Script</button>
+
+<div id="output"></div>
+
+
+
+</body>
+<script type="text/javascript" src="js/main.js"></script>
+</html>
